@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Style2.css">
+</head>
+
+<body>
+    <h1>Form for Even</h1>
+    <div>
+        <form>
+            <label for="Name">Name<sup>*</sup></label>
+            <input type="text" class="req" name="Name" id="Name" required><br><br>
+            <label for="Email">Email<sup>*</sup></label>
+            <input type="email" class="req" name="Email" id="Email" required><br><br>
+            <label for="req">Course<sup>*</sup></label>
+            <select class="req">
+        <option value="1">Fullstack</option>
+        <option value="2">Frontend</option>
+        <option value="3">Backend</option>
+        <option value="4">AWS</option>
+        </select><br><br>
+            <label for=" ">Preferred Location:</label>
+            <select>       
+            <option value="a">Anna Nagar</option>
+            <option value="b">Besant Nagar</option>
+            <option value="c">Porur</option>
+            <option value="d">OMR</option>
+        </select><br><br>
+            <label for="cr loccation">Current Location:</label>
+            <input type="text" name="cr location" id="cr location"><br><br>
+            <input type="checkbox" id="terms">
+            <label for="terms">subscribe to newsletter</label><br><br>
+            <input type="submit">
+        </form>
+    </div>
+    <h1>Form for Odd</h1>
+    <div>
+        <form><label for="name" class="Odd">Name:</label>
+            <input class="Odd" type="text" name="name" id="name" required><br><br>
+            <label for="DOB" class="Odd">Date of Birth:</label>
+            <input type="date" name="DOB" id="DOB" required><br><br>
+            <label for="Email" class="Odd">Email:</label>
+            <input class="Odd" type="email" name="Email" id="Email" required><br><br>
+            <label for="Mobile" class="Oddnotreq">Mobile No:</label>
+            <input class="Oddnotreq" type="tel" name="Mobile" id="Mobile" required><br><br>
+            <label for="city" class="Oddnotreq">City:</label>
+            <input class="Oddnotreq" type="text" name="city" id="city" required><br><br>
+            <input type="checkbox">I agree to the terms and conditions<br><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
