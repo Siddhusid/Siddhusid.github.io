@@ -2,7 +2,7 @@
 *{
     background-color:aliceblue;
 }
-.prefix li::before{
+.Prefix li::before{
 content: "*";
 color:red;
 }
