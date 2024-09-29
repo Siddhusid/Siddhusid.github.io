@@ -1,0 +1,25 @@
+{
+  "name": "siddhusid.github.io",
+  "version": "1.0.0",
+  "description": "Sass and Node Basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch sass/main.scss:css/main.css"
+  },
+  "keywords": [
+    "NPM",
+    "Node",
+    "Sass",
+    "Bootstrap",
+    "JS"
+  ],
+  "author": "Siddharth",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.79.4"
+  }
+}
