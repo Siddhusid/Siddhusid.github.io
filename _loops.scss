@@ -1,0 +1,9 @@
+@import 'variables';
+
+@for $i from 1 through 3 {
+  .box-#{$i} {
+    background-color: lighten($primary-color, $i * 10%);
+    padding: $padding;
+    border-radius: 10px;
+  }
+}

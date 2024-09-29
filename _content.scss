@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'functions';
+
+.movie-selection,
+.showtime-selection {
+  margin: rem(16px) 0;
+
+  label {
+    font-weight: bold;
+  }
+
+  select {
+    margin-left: rem(8px);
+  }
+}
+
+.seat-selection {
+  margin: rem(32px) 0;
+
+  .seating-chart {
+    display: flex;
+    gap: rem(8px);
+  }
+
+  .seat {
+    width: rem($seat-size);
+    height: rem($seat-size);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+    &.available {
+      background-color: $secondary-color;
+      cursor: pointer;
+
+      &:hover {
+        background-color: lighten($secondary-color, 15%);
+      }
+    }
+
+    &.booked {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+}

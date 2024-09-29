@@ -1,0 +1,19 @@
+%button-base {
+    padding: $padding;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: $font-stack;
+  }
+  
+  .book-button {
+    @extend %button-base;
+    background-color: $primary-color;
+    color: #fff;
+    margin-top: rem(16px);
+  
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+  
